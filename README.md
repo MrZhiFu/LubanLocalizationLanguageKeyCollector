@@ -72,7 +72,7 @@ dotnet ./Tools/Luban/Luban.dll ^
         return keys.OrderBy(k => k.Key, StringComparer.Ordinal).ToList();
     }
 ```
-##### 3.生成的目标多语言静态类LanguageKey的字段注释固定取中文字段下的值："ChineseSimplified" or "chineseSimplified" or "chinese_simplified"。(如果需要自定，更改源码CsharpL10NKeyCodeTarget的CollectKeysFromTable方法，如下图：)
+##### 3.生成的目标多语言静态类的字段注释固定取"简体中文"字段下的值："ChineseSimplified" or "chineseSimplified" or "chinese_simplified"。(如果需要自定，更改源码CsharpL10NKeyCodeTarget的CollectKeysFromTable方法，如下图：)
 ```csharp
     /// <summary>
     /// 从单个表中收集Key
