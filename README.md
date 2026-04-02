@@ -1,0 +1,2 @@
+# LubanLocalizationLanguageKeyCollector
+Luban工具多语言key收集导出到一个静态类
