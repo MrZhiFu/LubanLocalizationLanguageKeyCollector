@@ -51,10 +51,19 @@ dotnet ./Tools/Luban/Luban.dll ^
 ```csharp
 namespace YourNamespace
 {
+    /// <summary>
+    /// 本地化多语言Key列表
+    /// </summary>
     public static class LanguageKey
     {
+        /// <summary>
+        /// 欢迎文本
+        /// </summary>
         public const string WELCOME_TEXT = "welcome_text";
 
+        /// <summary>
+        /// 提交
+        /// </summary>
         public const string BTN_CONFIRM = "btn_confirm";
 
         // ... 更多Key
