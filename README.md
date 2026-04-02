@@ -1,4 +1,4 @@
-# LubanLocalizationLanguageKeyCollector
+# LubanL10nLanguageKeyCollector
 
 ## 功能说明
 
