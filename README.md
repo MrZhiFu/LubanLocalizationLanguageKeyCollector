@@ -45,7 +45,7 @@ dotnet ./Tools/Luban/Luban.dll ^
     --conf ./Luban.conf
 ```
 #### **注意：** 
-##### 1.多语言Key静态类输出目录 `cs-l10n-key.outputCodeDir` **不可**在配置表导出的目录之下，否则会覆盖导出的配置表代码，建议和配置表导出目录同级即可。
+##### 1.多语言Key静态类输出目录 `cs-l10n-key.outputCodeDir` **不可**指定在其他数据配置表导出的目录之下，否则会覆盖导出的配置表代码，建议和配置表导出目录同级即可。
 ##### 2.多语言配置表名称固定为 Localization。(如果需要自定，更改源码CsharpL10NKeyCodeTarget的CollectKeys方法，如下图：)
 ```csharp
     /// <summary>
